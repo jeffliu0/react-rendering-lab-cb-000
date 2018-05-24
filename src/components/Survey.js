@@ -15,7 +15,6 @@ class Survey extends React.Component {
     };
   }
 
-
   increaseRating = () => {
     this.setState({ rating: this.state.rating + 1 });
   }
